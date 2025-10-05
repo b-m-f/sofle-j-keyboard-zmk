@@ -28,41 +28,29 @@
 };
 
 / {
+
     macros {
         vim_left_pane: vim_left_pane{
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_tap &kp SPACE &kp H>
-                ;
+            bindings = <&macro_tap &kp SPACE &kp H> ;
         };
         vim_right_pane: vim_right_pane{
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_tap &kp SPACE &kp L>
-                ;
+            bindings = <&macro_tap &kp SPACE &kp L>;
         };
         vim_up_pane: vim_up_pane{
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_tap &kp SPACE &kp K>
-                ;
+            bindings = <&macro_tap &kp SPACE &kp K>;
         };
         vim_down_pane: vim_down_pane{
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_tap &kp SPACE &kp J>
-                ;
+            bindings = <&macro_tap &kp SPACE &kp J>;
         };
     };
-};
-
-
-/ {
-
     scroll_encoder: scroll_encoder {
         compatible = "zmk,behavior-sensor-rotate";
         #sensor-binding-cells = <0>;
