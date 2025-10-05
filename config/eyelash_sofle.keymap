@@ -80,10 +80,10 @@
 &trans  &trans  &kp LPAR &kp LPAR &trans  &trans                     &kp DOWN_ARROW     &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp MINUS &trans  &kp LEFT_ARROW     &trans  &kp LEFT_ALT(H) &kp LEFT_ALT(J) &kp LEFT_ALT(K) &kp LEFT_ALT(L) &trans
 &trans  &trans  &kp LEFT_BRACE &kp RIGHT_BRACE &kp EQUAL &trans      &kp RIGHT_ARROW    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                       &kp ENTER          &trans  &mo 3 &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                       &kp ENTER          &trans  &mo 3   &trans  &trans  &trans
             >;
 
-            display-name = "layer1";
+            display-name = "TMUX";
             sensor-bindings = <&scroll_encoder>;
         };
 
@@ -97,6 +97,7 @@
 &trans  &trans  &trans  &trans  &mo 3   &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
+            display-name = "VIM";
             sensor-bindings = <&scroll_encoder>;
         };
 
@@ -108,6 +109,8 @@
 &trans     &sys_reset    &trans          &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &trans  &trans  &trans &trans &trans
 &trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans  &trans &trans &trans
             >;
+            display-name = "SYSTEM";
+            sensor-bindings = <&scroll_encoder>;
         };
     };
 };
