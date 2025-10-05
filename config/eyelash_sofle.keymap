@@ -91,7 +91,8 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp H   &kp J   &kp H   &kp L   &trans    &trans  &trans  &vim_left_pane  &vim_down_pane &vim_up_pane &vim_right_pane  &trans
+// &trans  &kp H   &kp J   &kp H   &kp L   &trans    &trans  &trans  &vim_left_pane  &vim_down_pane &vim_up_pane &vim_right_pane  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &mo 3   &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
