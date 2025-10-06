@@ -117,6 +117,20 @@ parse_config:
     type: trans
 
   raw_binding_map:
+    # macros
+    "&vim_split_horizontal":
+      tap: "VIM |"
+    "&vim_left_pane":
+      tap: "VIM L"
+    "&vim_down_pane":
+      tap: "VIM D"
+    "&vim_up_pane":
+      tap: "VIM U"
+    "&vim_right_pane":
+      tap: "VIM R"
+    "&vim_split_vertical":
+      tap: "VIM -"
+
     # Layers
     "&ltq 1 BACKSPACE":
       tap:  $$mdi:backspace$$
