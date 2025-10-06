@@ -81,7 +81,7 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
-            display-name = "LAYER0";
+            display-name = "BASE";
         };
 
         layer_1 {
@@ -90,7 +90,7 @@
 &trans  &trans  &kp LPAR &kp LPAR &trans  &trans                     &kp DOWN_ARROW     &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp MINUS &trans  &kp LEFT_ARROW     &kp LA(MINUS)  &kp LA(H) &kp LA(J) &kp LA(K) &kp LA(L) &kp LA(BSLH)
 &trans  &trans  &kp LEFT_BRACE &kp RIGHT_BRACE &kp EQUAL &trans      &kp RIGHT_ARROW    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                       &kp ENTER          &trans  &mo 3   &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                       &kp ENTER          &kp LA(C) &mo 3   &trans  &trans  &trans
             >;
 
             display-name = "TMUX";
