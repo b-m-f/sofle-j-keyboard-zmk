@@ -103,7 +103,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp H   &kp J   &kp K   &kp L   &trans    &trans  &vim_split_horizontal  &vim_left_pane  &vim_down_pane &vim_up_pane &vim_right_pane  &vim_split_vertical
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &mo 3   &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
