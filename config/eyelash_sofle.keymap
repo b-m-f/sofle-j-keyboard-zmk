@@ -60,6 +60,16 @@
             #binding-cells = <0>;
             bindings = <&macro_tap &kp SPACE &kp BSLH>;
         };
+        vim_write: vim_write{
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap &kp COLON &kp W &kp ENTER>;
+        };
+        vim_quit: vim_quit{
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap &kp COLON &kp Q &kp ENTER>;
+        };
     };
     scroll_encoder: scroll_encoder {
         compatible = "zmk,behavior-sensor-rotate";
@@ -87,7 +97,7 @@
         layer_1 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LEFT_BRACE &kp RIGHT_BRACE &kp LEFT_BRACKET &kp RIGHT_BRACKET &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp TILDE &kp GRAVE &trans  &trans  &trans
+&trans  &vim_quit &vim_write &trans  &trans  &trans    &trans  &trans  &kp TILDE &kp GRAVE &trans  &trans  &trans
 &vim_split_horizontal  &vim_left_pane  &vim_down_pane &vim_up_pane &vim_right_pane  &vim_split_vertical &trans &trans  &kp H   &kp J   &kp K   &kp L   &trans    
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &mo 3   &trans    &trans  &trans  &trans  &trans  &trans  &trans
